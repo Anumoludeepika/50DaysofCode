@@ -42,3 +42,29 @@ body{
 h4{
     color:#b8860b;
 }
+@keyframes slideIn{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform:translateX(0) ;
+  }
+}
+.img-row img{
+  animation-name: slideIn;
+  animation-duration: 2s; 
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; 
+  animation-direction:alternate-reverse;
+}
+.img-row img:hover{
+  animation-play-state: running;
+}
+.img-footer{
+    font-size:large;
+    width:100%;
+    background-color:rgb(235, 20, 63);
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
