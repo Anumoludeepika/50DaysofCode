@@ -14,3 +14,29 @@ if(marks>30){
 }else{
     console.log("failure");
 }
+//nested if
+let Age=true;
+let isstudent=true;
+if(Age<70){
+    if(isstudent){
+        console.log("young student");
+    }else{
+        console.log("young non-student");
+    }
+    }
+    else{
+        console.log("greater than 70");
+    }
+    //nested if else
+    let AGE=true;
+let Isstudent=true;
+if(AGE>70){
+    if(Isstudent){
+        console.log("young student");
+    }else{
+        console.log("young non-student");
+    }
+    }
+    else{
+        console.log("greater than 80");
+    }
